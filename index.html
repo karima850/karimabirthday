@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Karima 🎉</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&family=Parisienne&family=Kaushan+Script&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      font-family: 'Poppins', sans-serif;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('karima-bg.jpg') no-repeat center center;
+      background-size: cover;
+      opacity: 0.7;
+      z-index: -1;
+    }
+
+    .container {
+      min-height: 100vh;
+      background-color: rgba(255, 255, 255, 0.9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      color: #333;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 4.5em;
+      font-family: 'Great Vibes', cursive;
+      margin-bottom: 0.3em;
+      color: #ff3c3c;
+      animation: birthdayPop 3s ease-in-out forwards, glowText 3s ease-in-out infinite alternate;
+      text-shadow: 0 0 8px rgba(255, 60, 60, 0.4), 0 0 20px rgba(255, 60, 60, 0.6), 0 0 35px rgba(255, 60, 60, 0.3);
+      font-weight: 400;
+    }
+
+    p {
+      font-size: 1.2em;
+      animation: fadeInUp 2.5s ease-in-out;
+    }
+
+    .image {
+      margin: 20px 0;
+      animation: zoomIn 3s ease-in-out;
+    }
+
+    .image img {
+      max-width: 300px;
+      border-radius: 20px;
+      animation: float 4s ease-in-out infinite, flameGlow 2s ease-in-out infinite;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .message {
+      margin-top: 30px;
+      font-size: 1.1em;
+      max-width: 80%;
+      animation: fadeInUp 3s ease-in-out;
+      color: #333;
+    }
+
+    .message p {
+      margin: 10px 0;
+    }
+
+    .message p.stylish {
+      font-family: 'Sacramento', cursive;
+      font-size: 2.2em;
+      color: #000;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .message p.extra:first-of-type {
+      font-family: 'Parisienne', cursive;
+      font-size: 1.6em;
+      color: #111;
+      font-weight: 600;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+      font-style: italic;
+    }
+
+    .message p.extra:last-of-type {
+      font-family: 'Parisienne', cursive;
+      font-size: 1.5em;
+      color: #111;
+      font-weight: 600;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+      line-height: 1.6;
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes zoomIn {
+      from { transform: scale(0.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    @keyframes glowText {
+      0% {
+        text-shadow: 0 0 5px rgba(255, 60, 60, 0.3);
+      }
+      100% {
+        text-shadow: 0 0 20px rgba(255, 60, 60, 0.5), 0 0 30px rgba(255, 90, 90, 0.4);
+      }
+    }
+
+    @keyframes birthdayPop {
+      0% { transform: scale(0.9); opacity: 0; }
+      60% { transform: scale(1.05); opacity: 1; }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes flameGlow {
+      0% {
+        box-shadow: 0 0 15px rgba(255, 120, 0, 0.4), 0 0 30px rgba(255, 80, 0, 0.5);
+      }
+      50% {
+        box-shadow: 0 0 35px rgba(255, 140, 0, 0.7), 0 0 60px rgba(255, 100, 0, 0.6);
+      }
+      100% {
+        box-shadow: 0 0 15px rgba(255, 120, 0, 0.4), 0 0 30px rgba(255, 80, 0, 0.5);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Happy Birthday Karima ✨</h1>
+    <div class="image">
+      <img src="karima.jpg" alt="Karima's Picture" />
+    </div>
+
+    <div class="message">
+      <p class="stylish" style=" font-size: 3.4em;">Wishing you a day filled with love, laughter, and sweet memories.</p>
+     <p class="stylish" style="
+      font-family: 'Sacramento', cursive;
+      font-size: 3.4em;
+      color: #000;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+      margin-top: 15px;
+    ">May all your dreams come true today and always.</p>
+        <p class="stylish" style="
+        font-family: 'Sacramento', cursive;
+        font-size: 2.8em;
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        margin-top: 15px;
+      ">With endless love</p>
+      <p class="stylish" style="
+      font-family: 'Sacramento', cursive;
+      font-size: 2.9em;
+      color: #000;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+      margin-top: 15px;
+    ">  your once-upon-a-time best friend💌</p>
+  
+    </div>
+  </div>
+</body>
+</html>
